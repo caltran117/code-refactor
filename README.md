@@ -1,10 +1,3 @@
-Horiseon
-
-This a website for the marketing agency Horiseon. It is optimized for search engines and contains specific related images, links, and content related to the company. Please visit the website: [here](https://caltran117.github.io/code-refactor/)
-![social reputation img](![alt= "online reputation management"]develop\assets\images\online-reputation-management.jpg)
-
-
-
 # <code-refactor>
 
 ## Description
