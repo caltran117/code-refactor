@@ -1,13 +1,16 @@
+/* box container of whole site. border box includes the padding & margin in the width / height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* background color of body */
 body {
     background-color: #d9dcd6;
 }
 
+/* styling for header, font family will choose the first fonts that are installed on the userside */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,18 +18,21 @@ header {
     color: #ffffff;
 }
 
+/* heading-- display is inline which is in the direction of the words*/
 header h1 {
-    display: inline-block;
+    display:inline;
     font-size: 48px;
 }
 
+/* class seo diff color */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* nav styling, float put it to the right corner */
 header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -36,39 +42,46 @@ header nav ul {
     list-style-type: none;
 }
 
+/* call html by the element then its children separated by spaces. styles the li elements */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* link nav color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* backgroudnsize scales image to cover container */
 #hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    background-size:cover;
     background-position: center;
 }
 
+/* class w/ image float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* img float right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* width is 75% of page size /*/
 #content {
     width: 75%;
     display: inline-block;
